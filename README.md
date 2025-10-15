@@ -15,9 +15,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Preparation & Plugin
 
-- .env setup customizaton configuration file
-- SweetAlert notification plugin, [Installation SweeAlert](https://realrashid.github.io/sweet-alert/install).
-- Run installation composer require realrashid/sweet-alert and publish sweetalert php artisan sweetalert:publish
+- Setup environment configuration file
+- SweetAlert notification plugin setup, [Installation SweeAlert](https://realrashid.github.io/sweet-alert/install).
+- Run installation *composer require realrashid/sweet-alert* and publish sweetalert php artisan sweetalert:publish
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
