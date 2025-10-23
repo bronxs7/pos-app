@@ -13,16 +13,28 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Preparation & Plugin
+## Requirement
 
+- PHP 8++
+- NodeJs 22.21
+- NPM 10.9
+- Mysql 8.4.6
+
+## Preparation & Build
+
+# Installation & Setup
+- Installing new laravel project **composer global require laravel/installer**
 - Setup environment configuration file
 - SweetAlert notification plugin setup, [Installation SweeAlert](https://realrashid.github.io/sweet-alert/install).
-- Run installation *composer require realrashid/sweet-alert* and publish sweetalert php artisan sweetalert:publish
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Run installation **composer require realrashid/sweet-alert** and publish sweetalert **php artisan sweetalert:publish**
+- Create view **php artisan make:view layouts.app**
+- Copy AdminLTE frontend template to master layout **app.blade.php**
+- Run **php artisan serve** and **npm install**
+- Run Migrate for database **php artisan migrate** and run **npm run dev**
+- Edit welcome.blade to extends layouts app.blade
+- Setup master layout to load asset css, js and more
+
+# Authentication
 
 ## Laravel Sponsors
 
