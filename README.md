@@ -22,7 +22,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Preparation & Build
 
-# Installation & Setup
+### Installation & Setup
 - Installing new laravel project **composer global require laravel/installer**
 - Setup environment configuration file
 - SweetAlert notification plugin setup, [Installation SweeAlert](https://realrashid.github.io/sweet-alert/install).
@@ -34,7 +34,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - Edit welcome.blade to extends layouts app.blade
 - Setup master layout to load asset css, js and more
 
-# Authentication
+### Authentication
 
 ## Laravel Sponsors
 
